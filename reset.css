@@ -1,7 +1,7 @@
 /** --------------------------------------------------------------------------------------------------------------------------------------------
 * Author		: @ptibat
 * Dev start		: 21/01/2013
-* Last modif	: 28/10/2021 08:36
+* Last modif	: 21/02/2023 16:46
 * Description	: Fichier de reset CSS
 --------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -16,8 +16,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video
 	{
@@ -29,7 +29,7 @@ time, mark, audio, video
 		vertical-align :			baseline;
 	}
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section
 	{
 		display :				block;
@@ -42,15 +42,23 @@ html:-moz-full-screen
 	{
 		background :			#FFFFFF;
 	}
-	
+
 html:-webkit-full-screen
 	{
 		background :			#FFFFFF;
 	}
-	
+
 html:fullscreen
 	{
 		background :			#FFFFFF;
+	}
+
+
+/* ------------------------------------------------------------------------------------ ALL ELEMENTS */
+
+html *
+	{
+		overflow :				auto;
 	}
 
 
@@ -87,7 +95,7 @@ html
 	}
 
 
-	
+
 body
 	{
 		margin :				0;
@@ -112,7 +120,7 @@ q:before, q:after
 		content :				"";
 		content :				none;
 	}
-	
+
 table
 	{
 		border-collapse :			collapse;
@@ -131,7 +139,7 @@ video
 	{
 		max-width :				100%;
 	}
-	
+
 video
 	{
 		height :				auto;
