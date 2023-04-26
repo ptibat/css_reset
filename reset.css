@@ -1,7 +1,7 @@
 /** --------------------------------------------------------------------------------------------------------------------------------------------
 * Author		: @ptibat
 * Dev start		: 21/01/2013
-* Last modif	: 21/02/2023 17:09
+* Last modif	: 26/04/2023 09:07
 * Description	: Fichier de reset CSS
 --------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -27,6 +27,13 @@ time, mark, audio, video
 		font-size :				100%;
 		font :				inherit;
 		vertical-align :			baseline;
+	}
+
+pre, xmp, code
+	{
+		font-size :				95%;
+		font-family :			monospace;
+		line-height :			0.7em;
 	}
 
 article, aside, details, figcaption, figure,
